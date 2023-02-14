@@ -39,7 +39,7 @@ const EditContact = ({
               size="lg"
               className="my-3"
               placeholder="Name"
-              value={contact.title}
+              value={contact.name}
               name="name"
               onChange={handleInput}
             />
@@ -47,7 +47,7 @@ const EditContact = ({
               size="lg"
               className="my-3"
               placeholder="Surname"
-              value={contact.desc}
+              value={contact.surname}
               name="surname"
               onChange={handleInput}
             />
@@ -55,7 +55,7 @@ const EditContact = ({
               size="lg"
               className="my-3"
               placeholder="Phone"
-              value={contact.image}
+              value={contact.phone}
               name="phone"
               onChange={handleInput}
             />
